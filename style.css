@@ -31,6 +31,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.red-test {
+    color: #c42828
+}
+
 /* Header styles */
 header {
     background-color: #222;
@@ -53,9 +57,9 @@ nav {
 .navigation {
     list-style: none;
     display: flex;
-    margin-left: -600px; /* Изменено значение отступа слева */
+    margin-left: -600px;
     margin-bottom: 20px;
-    align-items: center; /* Добавлено выравнивание по вертикали */
+    align-items: center;
 }
 
 .navigation li {
