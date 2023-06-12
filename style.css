@@ -1,0 +1,162 @@
+/* style.css */
+
+/* Reset styles */
+body, h1, h2, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f2f2f2;
+    background-color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    background-color: #222;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    margin-left: -600px; /* Изменено значение отступа слева */
+    margin-bottom: 20px;
+    align-items: center; /* Добавлено выравнивание по вертикали */
+}
+
+.navigation li {
+    margin-left: 20px;
+}
+
+.navigation li:first-child {
+    margin-left: 0;
+}
+
+.navigation li a {
+    color: #f2f2f2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #f2f2f2;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Features section styles */
+.features {
+    background-color: #444;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.features .feature {
+    margin-bottom: 40px;
+}
+
+.features .feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.features .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f2f2f2;
+}
+
+.features .feature p {
+    color: #ccc;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social li:last-child {
+    margin-right: 0;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
